@@ -170,6 +170,10 @@ hr{
 }
 .x-row .item img{
     width: 100%;
+    transition: all 0.5s;
+}
+.x-row .item img:hover{
+    transform: scale(1.1);
 }
 .x-row .item{
     width: 31%;
@@ -289,3 +293,4 @@ input[type=submit]:hover{
     margin: 10px 0;
     text-shadow: 3px 3px 0 #25252d, 1px 1px 0 #25252d;
  }
+
