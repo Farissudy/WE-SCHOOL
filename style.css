@@ -258,6 +258,9 @@ span:hover{
 input[type=checkbox]{
     margin-right: 20px;
 }
+input[type=text]::placeholder, input[type=email]::placeholder, textarea::placeholder{
+    color: white;
+}
 input[type=submit]{
     background: transparent;
     padding: 10px 30px;
@@ -280,7 +283,9 @@ input[type=submit]:hover{
     margin: 5px;
     color: #61c2f7; 
 }
-.footer a:hover{
-    background-color: #356374;
-    transition: all 1s;
- } 
+.footer i:hover{
+    color: #356374;
+    font-size: 35px;
+    margin: 10px 0;
+    text-shadow: 3px 3px 0 #25252d, 1px 1px 0 #25252d;
+ }
